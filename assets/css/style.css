@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #009cea;
+  background: #FFBD59;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 1px;
   font-family: "Open Sans", sans-serif;
+  width: 200px;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #576971;
@@ -93,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 150px;
+  /* max-width: 200px; */
 }
 
 /*--------------------------------------------------------------
@@ -115,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 10px;
 }
 .header-social-links a:hover {
-  color: #009cea;
+  color: #FFBD59;
 }
 
 /*--------------------------------------------------------------
@@ -145,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   color: #7b909a;
+  /* color: #FFBD59; */
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -154,7 +157,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #009cea;
+  /* color: #009cea; */
+  color: #FFBD59;
 }
 .navbar .dropdown ul {
   display: block;
@@ -420,7 +424,11 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #28a745;
+  color: #008080;
+}
+.about .content p{
+  margin-bottom: 0;
+  text-align: justify;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -910,7 +918,7 @@ section {
   color: #627680;
 }
 .team .member .social a:hover {
-  color: #009cea;
+  color: #FFBD59;
 }
 .team .member .social i {
   font-size: 16px;
@@ -937,9 +945,14 @@ section {
   border-bottom: 1px solid #eceff0;
   overflow: hidden;
   background: #fff;
-  height: 120px;
+  height: 140px;
   padding: 40px;
 }
+
+.opus{
+  height: 80px;
+}
+
 .clients .client-logo img {
   max-width: 50%;
   filter: grayscale(100);
@@ -1156,7 +1169,7 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #009cea;
+  background: #FFBD59;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
@@ -1409,4 +1422,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #364146;
+}
+
+.color_references{
+  color: #FFBD59;
+}
+
+.color_references:hover{
+  color: #FFBD59;
 }
