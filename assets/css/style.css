@@ -326,6 +326,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #576971;
   margin-bottom: 30px;
   font-size: 24px;
+  text-align: justify;
 }
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
